@@ -1,4 +1,6 @@
 import React, {useState} from "react"
+import flame from "../../assets/imgs/flame.png"
+import "./style.css"
 
 export interface IButtonCounterProps {
     title: string,
@@ -13,9 +15,12 @@ const ButtonCounter = ({title, active=false}:IButtonCounterProps) => {
     }
 
     return (
-        <button onClick={handleClick} disabled={!active}>
-            {title}: {count}
-        </button>
+        <div className="c_button_counter">
+            <h3 className="value_count">{count}</h3>
+            <button onClick={handleClick} disabled={!active}>
+                {title} <img src={flame} alt="fogo" width="20px" />
+            </button>
+        </div>
     )
 }
 

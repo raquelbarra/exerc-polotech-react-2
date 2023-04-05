@@ -1,0 +1,37 @@
+.c_button_counter{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.c_button_counter button{
+    padding: 10px;
+    border: 1px solid #9d91ff;
+    border-bottom: 3px solid #f3705a;
+    cursor: pointer;
+    font-weight: bold;
+    background: #131313;
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.c_button_counter button:disabled{
+    padding: 10px;
+    border: 1px solid #9d91ff;
+    border-bottom: 3px solid #f3705a;
+    cursor: no-drop;
+    font-weight: bold;
+    background: #ddd;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.value_count {
+    font-size: 6em;
+}

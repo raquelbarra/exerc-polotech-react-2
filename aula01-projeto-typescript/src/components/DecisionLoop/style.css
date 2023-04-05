@@ -1,0 +1,21 @@
+.c_decision_loop{
+    background: white;
+    text-shadow: 0 0 BLACK;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.c_decision_loop h3{
+  margin-bottom: 10px;
+}
+
+.c_decision_lista {
+    display: flex;
+    gap: 20px;
+}
+
+.c_decision_item{
+    display: flex;
+    align-items: center;
+}
